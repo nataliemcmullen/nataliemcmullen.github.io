@@ -1,200 +1,194 @@
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
 <head>
-	<meta charset="utf-8">
-
-	<title>Natalie && McMullen</title>
-
-	<!-- Behavioral Meta Data -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-	<!-- Core Meta Data -->
-	<meta name="author" content="Natalie McMullen">
-	<meta name="description" content="Personal Website">
-	<meta name="keywords" content="web development, utah, javascript, programmer, freelance, web, app, development, salt lake city">
-
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="images/fav.png" type="image/png">
-
-	<!-- Apple Touch Icons -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
-
-	<!--[if lt IE 9]>
+    <meta charset="utf-8">
+    <title>Natalie && McMullen</title>
+    <!-- Behavioral Meta Data -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Core Meta Data -->
+    <meta name="author" content="Natalie McMullen">
+    <meta name="description" content="Personal Website">
+    <meta name="keywords" content="web development, utah, javascript, programmer, freelance, web, app, development, salt lake city">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/fav.png" type="image/png">
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
+    <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
-	<!-- Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
-
-	<!-- Styles -->
-	<link rel="stylesheet" type="text/css" href="css/loader.css"/>
-	<link rel="stylesheet" type="text/css" href="css/framework.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-
-	<!-- Colors -->
-	<link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen">
-
-	<!--[if lt IE 9]>
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/loader.css" />
+    <link rel="stylesheet" type="text/css" href="css/framework.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="css/colors/cyan.css" title="cyan" media="screen">
+    <!--[if lt IE 9]>
 		<link rel="stylesheet" type="text/css" href="css/ie.css" />
 	<![endif]-->
-
-	<!-- Javascript -->
-	<script src="js/modernizr.js"></script>
-	<script src="js/jquery.js"></script>
+    <!-- Javascript -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery.js"></script>
 </head>
+
 <body>
-	<section id="hero">
-		<ul id="scene" class="scene"
-			data-friction-x="0.1"
-			data-friction-y="0.1"
-			data-scalar-x="25"
-			data-scalar-y="15"
-			>
-			<li class="layer" data-depth="0.00"></li>
-
-			<!-- BG -->
-			<li class="layer" data-depth="0.10" ><div class="background" data-0="transform: translate3d(0px, 0px, 0px);" data-top-bottom="transform: translate3d(0px, 300%, 0px);"></div></li>
-			<li class="layer" data-depth="0.15"><div class="triangles"></div></li>
-			<li class="layer" data-depth="0.25"><div class="sphere" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/sphere.png" alt="sphere"></div></li>
-			
-			<!-- Hero -->
-			<li class="layer" data-depth="0.20"><div class="title" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img class="has-retina" src="images/fav.png" alt="Opia"><span class="line"></span></div></li>
-			<li class="layer" data-depth="0.30">
-				<div class="hero-content" data-0="opacity: 1;" data-top-bottom="opacity: 0;">
-					<h1>hello.</h1>
-					<p class="sub-title">My name is Natalie McMullen.</p>
-
-				</div>
-			</li>
-
-			<!-- Flakes -->
-			<li class="layer" data-depth="0.40">
-				<div class="depth-1 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes1.png" alt="flake"></div>
-				<div class="depth-1 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes2.png" alt="flake"></div>
-				<div class="depth-1 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes3.png" alt="flake"></div>
-				<div class="depth-1 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes4.png" alt="flake"></div>
-			</li>
-			<li class="layer" data-depth="0.50">
-				<div class="depth-2 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes1.png" alt="flake"></div>
-				<div class="depth-2 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes2.png" alt="flake"></div>
-			</li>
-			<li class="layer" data-depth="0.60">
-				<div class="depth-3 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes1.png" alt="flake"></div>
-				<div class="depth-3 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes2.png" alt="flake"></div>
-				<div class="depth-3 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes3.png" alt="flake"></div>
-				<div class="depth-3 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes4.png" alt="flake"></div>
-			</li>
-			<li class="layer" data-depth="0.80"><div class="depth-4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth4/flakes.png" alt="flake"></div></li>
-			<li class="layer" data-depth="1.00"><div class="depth-5" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth5/flakes.png" alt="flake"></div></li>
-		</ul>
-		<a id="action" href="#intro"></a>
-	</section>
-
-	<section id="intro" class="container center padded">
-
-		<!-- Intro -->
-		<div class="row">
-			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-				<h3>About Me</h3>
-
-				<span class="line"></span>
-				<h2>Software Engineer.</h2>
-				<ul class="social-list padded">
-					<li><a target="_blank" href="https://github.com/nataliemcmullen">Github</a></li>
-					<li><a target="_blank" href="https://www.linkedin.com/in/natalie-mcmullen-ab869664">LinkedIn</a></li>
-				</ul>
-				<p>I believe in the power of simple, effective designs. I aim to break things down and build them better. I am passionate about full stack development and wielding data in useful ways.</p>
-			</div>
-		</div>
-
-	</section>
-
-	<section class="container padded-bottom center-mobile relative list">
-
-		<!-- Blocks -->
-		<div class="row">
-			<div class="block col-xs-12 col-sm-5">
-				<i class="icon icon-basic-keyboard"></i>
-				<h3>My skills</h3>
-				<p><li>Javascript, Javascript frameworks: Angular & React, Nodejs, Meteor</li>
-					<li>Java, Processing</li>
-					<li>HTML5, CSS, PHP, SQL</li>
-					<li>C, C++, C#</li>
-					<li>Matlab, R</li>
-						<li>Heroku, AWS, Stamplay</li>
-						<li>Git, Github</li>
-					</p>
-			</div>
-			<div class="block col-xs-12 col-sm-5 col-sm-offset-2">
-				<i class="icon icon-basic-webpage-img-txt"></i>
-				<h3>Web & app design + development</h3>
-				<p>Whether you need a full web application or a simple website I can work quickly and effectively on 
-					your project. </p>
-			</div>
-		</div>
-
-		<span class="separator"></span>
-
-		<!-- Blocks -->
-		<div class="row">
-			<div class="block col-xs-12 col-sm-5">
-				<i class="icon icon-basic-photo"></i>
-				<h3>Photogprahy</h3>
-				<p>Finding ways to help tell your story through photography is a powerful way to bring out who you and your business are.</p>
-			</div>
-			<div class="col-xs-12 col-sm-5 col-sm-offset-2">	
-				<i class="icon icon-basic-share"></i>
-				<h3>My Education</h3>
-				<p>B.S.E University of Utah. Computer Science</p>
-			</div>
-		</div>
-	</section>
-
-	<section class="full padded-top center dark" style="background-image: url(images/dark-image.jpg);">
-		<div class="container">
-
-			<!-- Intro -->
-			<div class="row">
-				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-					<h3>Work</h3>
-					<span class="line"></span>
-					<h2>A few examples of what I can do</h2>
-				</div>
-			</div>
-
-			<!-- Folio pt.1 -->
-			<div class="row">
-				<div class="col-xs-12 padded-top">
-					<ul class="folio-list">
-						<li><a target="_blank" href="http://eng.utah.edu/~mcmullen/BitDiv/html/page_signin.php"><img src="images/portfolio/port1.png" alt="thumbnail"></a></li>
-						<li><a target="_blank" href="http://alchemydashboard.herokuapp.com"><img src="images/portfolio/port6.png" alt="thumbnail"></a></li>
-						<li><a target="_blank" href="https://github.com/nataliemcmullen/Subdivides"><img src="images/portfolio/port2.png" alt="thumbnail"></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="full padded-bottom center" style="background-image: url(images/light-image.jpg);">
-		<div class="container">
-
-			<!-- Folio pt.2 -->
-			<div class="row">
-				<div class="col-xs-12 padded-bottom">
-					<ul class="folio-list dropshadow">
-						<li><a target="_blank" href="http://jackpinelavender.com"><img src="images/portfolio/port3.png" alt="thumbnail"></a></li>
-						<li><a class ="lightbox" href="images/portfolio/port4.png" title="4age"><img src="images/portfolio/port4.png" alt="thumbnail"></a></li>
-						<li><a target="_blank"e href="https://500px.com/nataliemcmullen"><img src="images/portfolio/port5.png" alt="thumbnail"></a></li>
-					</ul>
-				</div>
-			</div>
-
-			<!-- <div class="row">
+    <section id="hero">
+        <ul id="scene" class="scene" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15">
+            <li class="layer" data-depth="0.00"></li>
+            <!-- BG -->
+            <li class="layer" data-depth="0.10">
+                <div class="background" data-0="transform: translate3d(0px, 0px, 0px);" data-top-bottom="transform: translate3d(0px, 300%, 0px);"></div>
+            </li>
+            <li class="layer" data-depth="0.15">
+                <div class="triangles"></div>
+            </li>
+            <li class="layer" data-depth="0.25">
+                <div class="sphere" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/sphere.png" alt="sphere"></div>
+            </li>
+            <!-- Hero -->
+            <li class="layer" data-depth="0.20">
+                <div class="title" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img class="has-retina" src="images/fav.png" alt="Opia"><span class="line"></span></div>
+            </li>
+            <li class="layer" data-depth="0.30">
+                <div class="hero-content" data-0="opacity: 1;" data-top-bottom="opacity: 0;">
+                    <h1>hello.</h1>
+                    <p class="sub-title">My name is Natalie McMullen.</p>
+                </div>
+            </li>
+            <!-- Flakes -->
+            <li class="layer" data-depth="0.40">
+                <div class="depth-1 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes1.png" alt="flake"></div>
+                <div class="depth-1 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes2.png" alt="flake"></div>
+                <div class="depth-1 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes3.png" alt="flake"></div>
+                <div class="depth-1 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth1/flakes4.png" alt="flake"></div>
+            </li>
+            <li class="layer" data-depth="0.50">
+                <div class="depth-2 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes1.png" alt="flake"></div>
+                <div class="depth-2 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth2/flakes2.png" alt="flake"></div>
+            </li>
+            <li class="layer" data-depth="0.60">
+                <div class="depth-3 flake1" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes1.png" alt="flake"></div>
+                <div class="depth-3 flake2" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes2.png" alt="flake"></div>
+                <div class="depth-3 flake3" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes3.png" alt="flake"></div>
+                <div class="depth-3 flake4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth3/flakes4.png" alt="flake"></div>
+            </li>
+            <li class="layer" data-depth="0.80">
+                <div class="depth-4" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth4/flakes.png" alt="flake"></div>
+            </li>
+            <li class="layer" data-depth="1.00">
+                <div class="depth-5" data-0="opacity: 1;" data-top-bottom="opacity: 0;"><img src="images/flakes/depth5/flakes.png" alt="flake"></div>
+            </li>
+        </ul>
+        <a id="action" href="#intro"></a>
+    </section>
+    <section id="intro" class="container center padded">
+        <!-- Intro -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <h3>About Me</h3>
+                <span class="line"></span>
+                <h2>Software Engineer.</h2>
+                <ul class="social-list padded">
+                    <li><a target="_blank" href="https://github.com/nataliemcmullen">Github</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/natalie-mcmullen-ab869664">LinkedIn</a></li>
+                </ul>
+                <p>I believe in the power of simple, effective designs. I aim to break things down and build them better. I am passionate about full stack development and wielding data in useful ways.</p>
+            </div>
+        </div>
+    </section>
+    <section class="container padded-bottom center-mobile relative list">
+        <!-- Blocks -->
+        <div class="row">
+            <div class="block col-xs-12 col-sm-5">
+                <i class="icon icon-basic-keyboard"></i>
+                <h3>My skills</h3>
+                <p>
+                    <li>Javascript, Javascript frameworks: Angular & React, Nodejs, Meteor</li>
+                    <li>Java, Processing</li>
+                    <li>HTML5, CSS, PHP, SQL</li>
+                    <li>C, C++, C#</li>
+                    <li>Matlab, R</li>
+                    <li>Heroku, AWS, Stamplay</li>
+                    <li>Git, Github</li>
+                </p>
+            </div>
+            <div class="block col-xs-12 col-sm-5 col-sm-offset-2">
+                <i class="icon icon-basic-webpage-img-txt"></i>
+                <h3>Web & app design + development</h3>
+                <p>Whether you need a full web application or a simple website I can work quickly and effectively on your project. </p>
+            </div>
+        </div>
+        <span class="separator"></span>
+        <!-- Blocks -->
+        <div class="row">
+            <div class="block col-xs-12 col-sm-5">
+                <i class="icon icon-basic-photo"></i>
+                <h3>Photogprahy</h3>
+                <p>Finding ways to help tell your story through photography is a powerful way to bring out who you and your business are.</p>
+            </div>
+            <div class="col-xs-12 col-sm-5 col-sm-offset-2">
+                <i class="icon icon-basic-share"></i>
+                <h3>My Education</h3>
+                <p>B.S.E University of Utah. Computer Science</p>
+            </div>
+        </div>
+    </section>
+    <section class="full padded-top center dark" style="background-image: url(images/dark-image.jpg);">
+        <div class="container">
+            <!-- Intro -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                    <h3>Work</h3>
+                    <span class="line"></span>
+                    <h2>A few examples of what I can do</h2>
+                </div>
+            </div>
+            <!-- Folio pt.1 -->
+            <div class="row">
+                <div class="col-xs-12 padded-top">
+                    <ul class="folio-list">
+                        <li>
+                            <a target="_blank" href="http://eng.utah.edu/~mcmullen/BitDiv/html/page_signin.php"><img src="images/portfolio/port1.png" alt="thumbnail"></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://alchemydashboard.herokuapp.com"><img src="images/portfolio/port6.png" alt="thumbnail"></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/nataliemcmullen/Subdivides"><img src="images/portfolio/port2.png" alt="thumbnail"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="full padded-bottom center" style="background-image: url(images/light-image.jpg);">
+        <div class="container">
+            <!-- Folio pt.2 -->
+            <div class="row">
+                <div class="col-xs-12 padded-bottom">
+                    <ul class="folio-list dropshadow">
+                        <li>
+                            <a target="_blank" href="http://jackpinelavender.com"><img src="images/portfolio/port3.png" alt="thumbnail"></a>
+                        </li>
+                        <li>
+                            <a class="lightbox" href="images/portfolio/port4.png" title="4age"><img src="images/portfolio/port4.png" alt="thumbnail"></a>
+                        </li>
+                        <li>
+                            <a target="_blank" e href="https://500px.com/nataliemcmullen"><img src="images/portfolio/port5.png" alt="thumbnail"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="row">
 				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 					<span class="large-accent">“</span>
 					<h2>Insert test</h2>
@@ -203,42 +197,41 @@
 					<h4></h4>
 				</div>
 			</div> -->
-		</div>
-	</section>
-
-	<section class="container padded center">
-
-		<div class="row">
-			<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-				<h3>contact</h3>
-				<span class="line"></span>
-				<p>Get in touch with me</p>
-
-				<form accept-charset="UTF-8" action="https://formkeep.com/f/f99dbbd982d0" id="contact" name="contact" action="https://formkeep.com/f/f99dbbd982d0" method="POST" novalidate="novalidate">
-				<fieldset>
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-					<label for="email">Email</label>
-			        <input type="email" name="email" id="email" />
-			        <label for="message">Message</label>
-			        <textarea name="message" id="message"></textarea>
-			        <input id="submit" type="submit" name="submit" value="Send Email">
-				</fieldset>
-			</form>
-
-			<div id="success">
-				<p>Your message was sent successfully! I will be in touch as soon as I can.</p>
-			</div>
-
-			<div id="error">
-				<p>Something went wrong, try refreshing and submitting the form again.</p>
-			</div>
-			</div>
-		</div>
-
-		<!-- Footer -->
-		<div class="row padded">
-		<!-- 	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        </div>
+    </section>
+    <section class="container padded center">
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                <h3>contact</h3>
+                <span class="line"></span>
+                <p>Get in touch with me</p>
+                <form accept-charset="UTF-8" action="https://formkeep.com/f/f99dbbd982d0" id="contact" name="contact" action="https://formkeep.com/f/f99dbbd982d0" method="POST" novalidate="novalidate">
+                    <fieldset>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" />
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" />
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                        <input id="submit" type="submit" name="submit" value="Send Email">
+                    </fieldset>
+                </form>
+                <form accept-charset="UTF-8" action="https://formkeep.com/f/f99dbbd982d0" method="POST">
+                    <input type="hidden" name="utf8" value="✓">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="success">
+                    <p>Your message was sent successfully! I will be in touch as soon as I can.</p>
+                </div>
+                <div id="error">
+                    <p>Something went wrong, try refreshing and submitting the form again.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="row padded">
+            <!-- 	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 				<span class="line no-accent"></span>
 				<form
 					id="subscribe-form"
@@ -249,28 +242,29 @@
 
 					<div id="subscribe-result"></div>
 				</form> -->
-				<ul class="social-list padded">
-					<li><a target="_blank" href="https://github.com/nataliemcmullen">Github</a></li>
-					<li><a target="_blank" href="https://www.linkedin.com/in/natalie-mcmullen-ab869664">LinkedIn</a></li>
-				</ul>
-				<p class="copyright">Make something you love.</p>
-			</div>
-		</div>
-	</section>
-
-	<!-- Begin Pageloader -->
-	<div id="pageloader">
-		<!-- Content -->
-		<div class="pageloader-content">
-			<h4>Loading...</h4>
-			<span class="progress"></span>
-		</div><!-- END Content -->
-	</div><!-- END Pageloader -->
-
-	<!-- Javascript -->
-	<script src="js/loader.js"></script>
-	<script src="js/parallax.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
+            <ul class="social-list padded">
+                <li><a target="_blank" href="https://github.com/nataliemcmullen">Github</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/natalie-mcmullen-ab869664">LinkedIn</a></li>
+            </ul>
+            <p class="copyright">Make something you love.</p>
+        </div>
+        </div>
+    </section>
+    <!-- Begin Pageloader -->
+    <div id="pageloader">
+        <!-- Content -->
+        <div class="pageloader-content">
+            <h4>Loading...</h4>
+            <span class="progress"></span>
+        </div>
+        <!-- END Content -->
+    </div>
+    <!-- END Pageloader -->
+    <!-- Javascript -->
+    <script src="js/loader.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
